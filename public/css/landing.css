@@ -1,0 +1,115 @@
+body {
+	font-family: Roboto;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+.splash {
+	display: flex;
+	padding-bottom: 120px;
+	justify-content: center;
+}
+
+.splash-text {
+	padding-top: 200px;
+	padding-right: 100px;
+}
+
+.splash-subtext {
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.splash-img {
+	margin-top: 120px;
+	width: 50%;
+}
+
+.splash-link {
+	background-color: black;
+	overflow: hidden;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 18px 28px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.splash-link:hover {
+	background-color: grey;
+}
+
+.meet-team {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: white;
+	text-align: center;
+}
+
+.meet-team p {
+	font-size: 24px;
+}
+
+.team-pictures {
+	display: flex;
+	justify-content: center;
+}
+
+.team-dp {
+	margin: 20px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 0px solid black;
+}
+
+.our-works {
+	display: flex;
+	background-color: #E4E4E4;
+	padding-top: 155px;
+	padding-bottom: 157px;
+	justify-content: center;
+}
+
+.our-works-img {
+	width: 40%
+}
+
+.our-works-text {
+	padding-left: 72px;
+}
+
+.our-works-title {
+	font-size: 32px;
+}
+
+.our-works-subtext {
+	font-size: 18px;
+}
+
+.our-works-review {
+	padding-top: 48px;
+	color: grey;
+}
+
+.review-user {
+	display: flex;
+}
+
+.review-dp {
+	height: 32px;
+	width: 32px;
+	background-color: black;
+	border-radius: 50%;
+	border: 0px solid black;
+}
+
+.review-username {
+	margin: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
