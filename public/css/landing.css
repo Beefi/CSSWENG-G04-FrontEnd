@@ -17,14 +17,36 @@ h1 {
 	padding-right: 100px;
 }
 
+.splash-title {
+	animation: fadeIn 3s;
+  	-webkit-animation: fadeIn 3s;
+  	-moz-animation: fadeIn 3s;
+  	-o-animation: fadeIn 3s;
+  	-ms-animation: fadeIn 3s;
+}
+
 .splash-subtext {
+	opacity: 0%;
 	font-size: 20px;
 	padding-bottom: 30px;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 1s;
 }
 
 .splash-img {
+	opacity: 0%;
 	margin-top: 120px;
 	width: 50%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
 }
 
 .splash-link {
@@ -76,7 +98,14 @@ h1 {
 }
 
 .our-works-img {
-	width: 40%
+	width: 40%;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 3s;
 }
 
 .our-works-text {
@@ -85,19 +114,45 @@ h1 {
 
 .our-works-title {
 	font-size: 32px;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
 }
 
 .our-works-subtext {
 	font-size: 18px;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 1s;
 }
 
 .our-works-review {
 	padding-top: 48px;
 	color: grey;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
 }
 
 .review-user {
 	display: flex;
+	opacity: 0;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
 }
 
 .review-dp {
@@ -112,4 +167,29 @@ h1 {
 	margin: 8px;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
